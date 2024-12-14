@@ -1,0 +1,15 @@
+.home{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: calc(100vh - 8.1rem);
+}
+
+
+@media only screen and (max-width: 800px) {
+    .home{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

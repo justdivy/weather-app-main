@@ -1,0 +1,71 @@
+.form {
+    position: relative;
+}
+
+.input {
+    border: none;
+    outline: none;
+    padding: 1rem .5rem;
+    font-size: 2rem;
+    padding-right: 3.5rem;
+    width: 100%;
+    background-color: transparent;
+    color: #cecdcd;
+    border-left: 2px solid #cecdcd;
+
+}
+
+.searchbtn {
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid #cecdcd;
+    border-radius: 100%;
+    width: fit-content;
+    height: fit-content;
+    padding: .5rem;
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+.searchbtn-icon {
+    size: 50;
+    color: #cecdcd;
+}
+
+.suggestedCities-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    position: absolute;
+    top: 110%;
+    width: 100%;
+}
+
+.suggestedCities-item {
+    width: 80%;
+    padding: .4rem 1rem;
+    text-align: center;
+    background-color: transparent;
+    background-color: rgb(0, 0, 0);
+    color: #cecdcd;
+    border: 1px solid #cecdcd;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+
+.suggestedCities-item:hover {
+    background-color: rgba(50, 46, 46, 0.868);
+}

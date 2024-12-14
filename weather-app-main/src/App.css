@@ -1,0 +1,11 @@
+.app-bg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.App{
+    background-color: #00000060;
+    color: aliceblue;
+    min-height: 100vh;
+}
